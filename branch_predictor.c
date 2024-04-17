@@ -99,7 +99,7 @@ int main(int argc, char * argv[]){
         if (RB >= 1){
             predictionAlgorithm(GhareTable, address, actualPredicition, GPB, RB);   // Perform the Gshare Prediction
         }
-        else if (RB >= 0){
+        else if (RB == 0){
             bimodalAlgorithm(GhareTable, address, actualPredicition, GPB);          // Peform the bimodal algorithm
         }
         else {
