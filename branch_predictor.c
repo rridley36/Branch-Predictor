@@ -1,3 +1,11 @@
+/* How to run program:
+
+gcc -o SIM branch_predictor.c
+./SIM 8 5 mcf_trace.txt
+
+Layout: ./SIM M N textfile.txt
+*/
+
 #include <stdio.h>                                      // Used for printing and scanning (printf/scanf)
 #include <stdlib.h>                                     // Used for dynamic memory allocation (malloc)
 #include <math.h>                                       // Used for the power function (2^M)
